@@ -4,7 +4,7 @@ pygame.init()
 
 screen = pygame.display.set_mode([640, 480], pygame.RESIZABLE)
 pygame.display.set_caption("My Screen")
-screen.fill([1, 11,55])                #muudame taustavärvi
+screen.fill([1, 11,55])               
 
 #joonistamine
 """
