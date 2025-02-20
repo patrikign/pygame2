@@ -31,12 +31,12 @@ def draw_base():
     pygame.draw.polygon(screen, valge, [(125, 250), (175, 250), (200, 225), (100, 225)])  # Valge osa
 
     # post (ristkülik)
-    pygame.draw.rect(screen, must, [145, 230, 10, 50])  # Must post, kõrgus 50 ja laius 10
+    pygame.draw.rect(screen, must, [145, 230, 10, 50])  
 
 # Tsükkel
 running = True
 while running:
-    screen.fill(valge)  # Täidame ekraani taustavärviga
+    screen.fill(valge)  
 
     #  postialus
     draw_base()
@@ -45,7 +45,7 @@ while running:
     draw_traffic_light()
 
     #  tekst
-    font = pygame.font.SysFont("Arial", 15)  # Väiksem tekst
+    font = pygame.font.SysFont("Arial", 15)  
     text = font.render("Valgusfoor – Pätrik Ignatenko", True, must)
     screen.blit(text, [50, 10])
 
