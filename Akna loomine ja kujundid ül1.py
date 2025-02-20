@@ -12,7 +12,7 @@ kollane = (255, 255, 0)
 roheline = (0, 255, 0)
 must = (0, 0, 0)
 valge = (255, 255, 255)
-heledam_taust = (200, 200, 200)  # Heledam taust värv
+heledam_taust = (200, 200, 200)  
 
 # Funktsioon valgusfoori joonistamiseks
 def draw_traffic_light():
@@ -24,7 +24,7 @@ def draw_traffic_light():
 # Tsükkel
 running = True
 while running:
-    screen.fill(valge)  # Täidame ekraani taustavärviga
+    screen.fill(valge) 
 
     # Joonistame valgusfoori
     draw_traffic_light()
