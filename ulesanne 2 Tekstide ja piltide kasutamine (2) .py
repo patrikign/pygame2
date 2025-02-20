@@ -37,13 +37,13 @@ while running:
             running = False
 
     # Joonista ekraanile
-    screen.blit(bg, (0, 0))  # Taust
-    screen.blit(logo, (10, 10))  # Logo vasakus nurgas
+    screen.blit(bg, (0, 0))  
+    screen.blit(logo, (10, 10))  
     screen.blit(seller, (90, 150))
     screen.blit(chat, (216, 75))
     screen.blit(text, (236, 140))
-    screen.blit(tort, (420, 200))  # Tort laua peal
-    screen.blit(sword, (515, 100))  # Mõõk seinal
+    screen.blit(tort, (420, 200))  
+    screen.blit(sword, (515, 100))  
 
     pygame.display.flip()
 
