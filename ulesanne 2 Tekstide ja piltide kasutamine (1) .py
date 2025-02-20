@@ -14,7 +14,7 @@ seller = pygame.image.load("seller.png")
 chat = pygame.image.load("chat.png")
 logo = pygame.image.load("VIKK_logo.png")
 sword = pygame.image.load("mõõk.png")
-tort = pygame.image.load("tort.png")  # Lisa sobiv pildifail
+tort = pygame.image.load("tort.png")  
 
 # Muuda piltide suurust
 seller = pygame.transform.scale(seller, (248, 294))
