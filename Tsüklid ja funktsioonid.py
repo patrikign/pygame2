@@ -1,6 +1,5 @@
 import pygame
 
-# PyGame algatus
 pygame.init()
 
 # Akna loomine

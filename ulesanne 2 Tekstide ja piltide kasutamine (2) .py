@@ -1,6 +1,5 @@
 import pygame
 
-# Initsialiseeri Pygame
 pygame.init()
 
 # Mänguakna seaded
@@ -36,7 +35,6 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    # Joonista ekraanile
     screen.blit(bg, (0, 0))  
     screen.blit(logo, (10, 10))  
     screen.blit(seller, (90, 150))
